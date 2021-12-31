@@ -1,0 +1,197 @@
+.app {
+    background: #1d1d1d;
+    color: white;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.containerTop{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin: 20px 0; 
+    font-size: 2.5rem;
+}
+
+.titleSmall {
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.budgetSt {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(148, 146, 255);
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.remaining {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(134, 247, 68);
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.remainingAlert {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(248, 52, 166);
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.expenseTotal {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(247, 134, 68);
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+.button {
+    border: 0;
+    background: rgb(87, 0, 87);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 10px 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.containerBottom{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleBottom {
+    align-self: flex-start;
+    margin-left: 30px;
+
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.listItem {
+    list-style: none;
+}
+
+.listExpenses {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+
+.left {
+    flex: 80%;
+}
+
+.titleExpenses {
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.right {
+    flex: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.price {
+    background: white;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.deleteButton {
+    background-color: white;
+    color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.addExpenseContainer {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addForm {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.addInput {
+    font-size: 16px;
+    margin: 10px 0;
+    width: 100%;
+    height: 35px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.addInput:focus{
+    outline: none;
+}
