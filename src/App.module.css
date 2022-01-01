@@ -225,3 +225,15 @@ h2 {
 .inputEdit:focus{
     outline: none;
 }
+
+/* Chrome, Safari, Edge, Opera */
+.inputEdit ::-webkit-outer-spin-button,
+.inputEdit ::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.inputEdit [type=number] {
+  -moz-appearance: textfield;
+}
